@@ -1,16 +1,9 @@
-<<<<<<< HEAD
-## 1.3.4（2021-06-25）
-- uni-badge 优化 示例项目
-- uni-countdown 修复 uni-countdown 重复赋值跳两秒的 bug
-- uni-easyinput 修复 passwordIcon 属性拼写错误的 bug
-=======
 ## 1.3.4（2021-06-28）
 - uni-badge 优化 示例项目
 - uni-countdown 修复 uni-countdown 重复赋值跳两秒的 bug
 - uni-data-checkbox 修复 selectedTextColor 属性不生效的Bug
 - uni-easyinput 修复 passwordIcon 属性拼写错误的 bug
 - uni-forms 修复 pattern 属性在微信小程序平台无效的问题
->>>>>>> dev
 - uni-forms 修复 validate-trigger属性为submit且err-show-type属性为toast时不能弹出的Bug
 - uni-forms 修复 只写setRules方法而导致校验不生效的Bug
 - uni-forms 修复 由上个办法引发的错误提示文字错位的Bug
