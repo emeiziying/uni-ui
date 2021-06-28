@@ -1,3 +1,5 @@
+## 1.3.5（2021-06-28）
+- uni-data-checkbox 修复 selectedTextColor 属性不生效的Bug
 ## 1.3.4（2021-06-28）
 - uni-badge 优化 示例项目
 - uni-countdown 修复 uni-countdown 重复赋值跳两秒的 bug

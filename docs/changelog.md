@@ -7,6 +7,14 @@
 - 主版本号：含有破坏性更新和新特性，不在发布周期内。
 
 <!-- 更新占位 -->
+<log title="1.3.5" date="2021-06-28">
+	<log-item title="uni-data-checkbox 组件更新">
+		<log-item-text tag-type="fix">
+			 selectedTextColor 属性不生效的Bug
+		</log-item-text>
+	</log-item>
+</log>
+
 <log title="1.3.4" date="2021-06-28">
 	<log-item title="uni-badge 组件更新">
 		<log-item-text tag-type="perf">
