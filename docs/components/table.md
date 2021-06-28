@@ -109,13 +109,25 @@ selection-change	| 开启多选时，当选择项发生变化时会触发该事�
 |:-:			|:-:		|:-:			|	:-:				|:-:|
 |width		|String	| -				|-					| 单元格宽度|
 |align		|String	| left		|left/center/right	| 表头对齐方式|
+|filter-type		|String	| 	|search/select	| 筛选类型，search关键字搜索，select类别选择|
+|filter-data		|Array	| 	|| 筛选数据|
 |sortable |Boolean| false		|- 	| 是否启用排序|
+
+filter-data 示例
+```json
+[{
+	text: "", //显示
+	value: "" // 值
+}]
+```
+
 
 ### Th Events
 
 |事件称名				|说明									| 返回参数			|
 |:-:					|:-:									| :-:				|
 ||sort-change	| 点击排序时会触发该事件	| Function(Object)|
+||filter-change	| 筛选数据时会触发该事件	| Function(Object)|
 
 
 ### Td Props
