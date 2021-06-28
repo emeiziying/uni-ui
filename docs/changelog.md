@@ -7,7 +7,11 @@
 - 主版本号：含有破坏性更新和新特性，不在发布周期内。
 
 <!-- 更新占位 -->
+<<<<<<< HEAD
 <log title="1.3.4" date="2021-06-25">
+=======
+<log title="1.3.4" date="2021-06-28">
+>>>>>>> dev
 	<log-item title="uni-badge 组件更新">
 		<log-item-text tag-type="perf">
 			 示例项目
@@ -18,6 +22,14 @@
 			 uni-countdown 重复赋值跳两秒的 bug
 		</log-item-text>
 	</log-item>
+<<<<<<< HEAD
+=======
+	<log-item title="uni-data-checkbox 组件更新">
+		<log-item-text tag-type="fix">
+			 selectedTextColor 属性不生效的Bug
+		</log-item-text>
+	</log-item>
+>>>>>>> dev
 	<log-item title="uni-easyinput 组件更新">
 		<log-item-text tag-type="fix">
 			 passwordIcon 属性拼写错误的 bug
@@ -25,6 +37,12 @@
 	</log-item>
 	<log-item title="uni-forms 组件更新">
 		<log-item-text tag-type="fix">
+<<<<<<< HEAD
+=======
+			 pattern 属性在微信小程序平台无效的问题
+		</log-item-text>
+		<log-item-text tag-type="fix">
+>>>>>>> dev
 			 validate-trigger属性为submit且err-show-type属性为toast时不能弹出的Bug
 		</log-item-text>
 		<log-item-text tag-type="fix">
